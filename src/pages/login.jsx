@@ -44,7 +44,7 @@ function Login() {
       }
     );
 
-    console.log(res.data);
+    
 
     localStorage.setItem(
       "token",

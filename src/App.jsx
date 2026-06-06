@@ -14,22 +14,22 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import AdminRoute from "./components/AdminRoute";
 
 import Dashboard
-from "../../Admin/admin/Dashboard";
+from "../../Admin/admin/src/Dashboard";
 
 import AdminProducts
-from "../../Admin/admin/Products";
+from "../../Admin/admin/src/Products";
 
 import Upload
-from "../../Admin/admin/Upload";
+from "../../Admin/admin/src/Upload";
 
 import Orders
-from "../../Admin/admin/Orders";
+from "../../Admin/admin/src/Orders";
 
 import Analytics
-from "../../Admin/admin/Analytics";
+from "../../Admin/admin/src/Analytics";
 
 import Settings
-from "../../Admin/admin/Settings";
+from "../../Admin/admin/src/Settings";
 
 function App() {
 
