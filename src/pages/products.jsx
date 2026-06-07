@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import ProductCard from "../components/ProductCard";
 
 import API from "../services/api";

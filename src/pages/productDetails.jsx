@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 
 import { useParams } from "react-router-dom";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 
 import API from "../services/api";
 
