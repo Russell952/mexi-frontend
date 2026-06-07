@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Products from "./pages/Products";
-import ProductDetails from "./pages/ProductDetails";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import OrderSuccess from "./pages/OrderSuccess";
+import Home from "./pages/home";
+import Products from "./pages/products";
+import ProductDetails from "./pages/productDetails";
+import Cart from "./pages/cart";
+import Checkout from "./pages/checkout";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import OrderSuccess from "./pages/orderSuccess";
 
 import ProtectedRoute from "./components/ProtectedRoute";
 
