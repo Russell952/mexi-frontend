@@ -2,7 +2,7 @@ import { useContext } from "react";
 
 import { Link } from "react-router-dom";
 
-import Navbar from "../components/navbar";
+import Navbar from "../components/navBar";
 
 import { CartContext } from "../context/CartContext";
 
