@@ -37,16 +37,9 @@ function Navbar() {
     { name: "Home", path: "/" },
     { name: "Products", path: "/products" },
     { name: "Cart", path: "/cart" },
-    { name: "Register", path: "/register"},
     { name: "Login", path: "/login" },
+    { name: "Register", path: "/register"},
   ];
-
-    if (users?.role === "admin") {
-    links.push({
-      name: "Admin",
-      path: "/admin",
-    });
-  }
 
   return (
     <nav className="navbar">

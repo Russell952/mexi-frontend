@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client";
 import App from "./src/App";
 
 import "./src/styles/global.css";
-import "./src/styles/admin.css";
 import "./src/styles/responsive.css";
 
 import CartProvider from "./src/context/CartContext";

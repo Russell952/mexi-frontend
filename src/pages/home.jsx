@@ -1,6 +1,7 @@
 import Navbar from "../components/navBar";
 import { Link } from "react-router-dom";
 import mexiLogo from "../assets/Mexi-logo.png"
+import image from "../assets/download.png"
 
 function Home() {
 
@@ -59,7 +60,7 @@ function Home() {
           <div className="hero-image">
 
             <img
-              src="../assets/download.png"
+              src={image}
               alt="medical supplies"
             />
 

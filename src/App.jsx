@@ -13,24 +13,6 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 import AdminRoute from "./components/AdminRoute";
 
-// import Dashboard
-// from "../../Admin/admin/src/Dashboard";
-
-// import AdminProducts
-// from "../../Admin/admin/src/Products";
-
-// import Upload
-// from "../../Admin/admin/src/Upload";
-
-// import Orders
-// from "../../Admin/admin/src/Orders";
-
-// import Analytics
-// from "../../Admin/admin/src/Analytics";
-
-// import Settings
-// from "../../Admin/admin/src/Settings";
-
 function App() {
 
   const user = JSON.parse(localStorage.getItem("user"));
@@ -56,41 +38,6 @@ function App() {
         <Route path="/register" element={<Register />} />
 
         <Route path="/success" element={<OrderSuccess />} />
-
-        {/* <Route
-          path="/admin"
-          element={
-            user?.role === "admin"
-              ? <Dashboard />
-              : <Navigate to="/" />
-          }
-        />
-
-
-        <Route
-          path="/admin/products"
-          element={<AdminProducts />}
-        />
-
-        <Route
-          path="/admin/upload"
-          element={<Upload />}
-        />
-
-        <Route
-          path="/admin/orders"
-          element={<Orders />}
-        />
-
-        <Route
-          path="/admin/analytics"
-          element={<Analytics />}
-        />
-
-        <Route
-          path="/admin/settings"
-          element={<Settings />}
-        /> */}
 
       </Routes>
 
